@@ -11,14 +11,20 @@ Add this line to your application's Gemfile:
 And then execute:
 
     $ bundle
-
+                                                                                               :|
 Or install it yourself as:
 
     $ gem install httparty-timmed
 
 ## Usage
 
-TODO: Write usage instructions here
+This is very simple to use, just require the gem:
+"require 'httparty/timed"
+
+and whenever you make a request with http you'll have the #duration method:
+   res = HTTParty.get 'http://google.com'
+   puts res.duration
+
 
 ## Contributing
 

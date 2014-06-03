@@ -7,11 +7,11 @@ Gem::Specification.new do |spec|
   spec.name          = "httparty-timed"
   spec.version       = Httparty::Timed::VERSION
   spec.authors       = ["Silva, Arthur"]
-  spec.email         = ["arthur.silva@bskyb.com"]
+  spec.email         = ["awls99@gmail.com"]
   spec.description   = %q{HTTParty with Response#duration method}
   spec.summary       = %q{This gem consist mostly of monkey patching to get Net::HTTP to record the call's duration and
   pass it along HTTParty for easy usage}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/awls99/httparty-timed"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
