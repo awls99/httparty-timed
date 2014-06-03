@@ -4,8 +4,8 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'httparty/timmed/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "httparty-timmed"
-  spec.version       = Httparty::Timmed::VERSION
+  spec.name          = "httparty-timed"
+  spec.version       = Httparty::Timed::VERSION
   spec.authors       = ["Silva, Arthur"]
   spec.email         = ["arthur.silva@bskyb.com"]
   spec.description   = %q{HTTParty with Response#duration method}

@@ -1,5 +1,5 @@
 module Httparty
-  module Timmed
+  module Timed
     VERSION = "0.0.1"
   end
 end
