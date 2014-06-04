@@ -21,4 +21,5 @@ Gem::Specification.new do |spec|
 
   spec.add_dependency "httparty"
   spec.add_development_dependency "sinatra"
+  spec.add_development_dependency "rspec"
 end
