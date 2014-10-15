@@ -1,6 +1,20 @@
 # Httparty::Timmed
 
-TODO: Write a gem description
+This gem monkey patches NET::HTTP::Response adding a #duration atribute which in turn is exposed on the HTTParty's response object. 
+
+## Usage
+
+This is very simple to use, just require the gem:
+"require 'httparty/timed"
+
+and whenever you make a request with http you'll have the #duration method:
+```
+   require 'httparty-timmed'
+
+   res = HTTParty.get 'http://google.com'
+   puts res.duration
+```
+
 
 ## Installation
 
@@ -15,15 +29,6 @@ And then execute:
 Or install it yourself as:
 
     $ gem install httparty-timmed
-
-## Usage
-
-This is very simple to use, just require the gem:
-"require 'httparty/timed"
-
-and whenever you make a request with http you'll have the #duration method:
-   res = HTTParty.get 'http://google.com'
-   puts res.duration
 
 
 ## Contributing
